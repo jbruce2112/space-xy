@@ -15,8 +15,7 @@
 		522E4E6E27CC3AF90000B6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522E4E6D27CC3AF90000B6B6 /* Assets.xcassets */; };
 		522E4E7127CC3AF90000B6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522E4E6F27CC3AF90000B6B6 /* Main.storyboard */; };
 		522E4E7C27CC3AF90000B6B6 /* SpaceYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4E7B27CC3AF90000B6B6 /* SpaceYTests.swift */; };
-		522E4E8627CC3AF90000B6B6 /* SpaceYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4E8527CC3AF90000B6B6 /* SpaceYUITests.swift */; };
-		522E4E8827CC3AF90000B6B6 /* SpaceYUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522E4E8727CC3AF90000B6B6 /* SpaceYUITestsLaunchTests.swift */; };
+		52DB0FA127CC3D9A00AB19FF /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52DB0FA027CC3D9A00AB19FF /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +26,10 @@
 			remoteGlobalIDString = 522E4E5F27CC3AF80000B6B6;
 			remoteInfo = SpaceY;
 		};
-		522E4E8227CC3AF90000B6B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 522E4E5827CC3AF80000B6B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 522E4E5F27CC3AF80000B6B6;
-			remoteInfo = SpaceY;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		522E4E6027CC3AF80000B6B6 /* SpaceY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522E4E6027CC3AF80000B6B6 /* SpaceXY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522E4E6327CC3AF80000B6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522E4E6527CC3AF80000B6B6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		522E4E6727CC3AF80000B6B6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -48,9 +40,7 @@
 		522E4E7227CC3AF90000B6B6 /* SpaceY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceY.entitlements; sourceTree = "<group>"; };
 		522E4E7727CC3AF90000B6B6 /* SpaceYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522E4E7B27CC3AF90000B6B6 /* SpaceYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceYTests.swift; sourceTree = "<group>"; };
-		522E4E8127CC3AF90000B6B6 /* SpaceYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		522E4E8527CC3AF90000B6B6 /* SpaceYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceYUITests.swift; sourceTree = "<group>"; };
-		522E4E8727CC3AF90000B6B6 /* SpaceYUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceYUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52DB0FA027CC3D9A00AB19FF /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,22 +58,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		522E4E7E27CC3AF90000B6B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		522E4E5727CC3AF80000B6B6 = {
 			isa = PBXGroup;
 			children = (
-				522E4E6227CC3AF80000B6B6 /* SpaceY */,
+				522E4E6227CC3AF80000B6B6 /* SpaceXY */,
 				522E4E7A27CC3AF90000B6B6 /* SpaceYTests */,
-				522E4E8427CC3AF90000B6B6 /* SpaceYUITests */,
 				522E4E6127CC3AF80000B6B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,26 +73,26 @@
 		522E4E6127CC3AF80000B6B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				522E4E6027CC3AF80000B6B6 /* SpaceY.app */,
+				522E4E6027CC3AF80000B6B6 /* SpaceXY.app */,
 				522E4E7727CC3AF90000B6B6 /* SpaceYTests.xctest */,
-				522E4E8127CC3AF90000B6B6 /* SpaceYUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		522E4E6227CC3AF80000B6B6 /* SpaceY */ = {
+		522E4E6227CC3AF80000B6B6 /* SpaceXY */ = {
 			isa = PBXGroup;
 			children = (
 				522E4E6327CC3AF80000B6B6 /* AppDelegate.swift */,
 				522E4E6527CC3AF80000B6B6 /* GameScene.sks */,
 				522E4E6727CC3AF80000B6B6 /* Actions.sks */,
 				522E4E6927CC3AF80000B6B6 /* GameScene.swift */,
+				52DB0FA027CC3D9A00AB19FF /* Starfield.sks */,
 				522E4E6B27CC3AF80000B6B6 /* ViewController.swift */,
 				522E4E6D27CC3AF90000B6B6 /* Assets.xcassets */,
 				522E4E6F27CC3AF90000B6B6 /* Main.storyboard */,
 				522E4E7227CC3AF90000B6B6 /* SpaceY.entitlements */,
 			);
-			path = SpaceY;
+			path = SpaceXY;
 			sourceTree = "<group>";
 		};
 		522E4E7A27CC3AF90000B6B6 /* SpaceYTests */ = {
@@ -119,15 +101,6 @@
 				522E4E7B27CC3AF90000B6B6 /* SpaceYTests.swift */,
 			);
 			path = SpaceYTests;
-			sourceTree = "<group>";
-		};
-		522E4E8427CC3AF90000B6B6 /* SpaceYUITests */ = {
-			isa = PBXGroup;
-			children = (
-				522E4E8527CC3AF90000B6B6 /* SpaceYUITests.swift */,
-				522E4E8727CC3AF90000B6B6 /* SpaceYUITestsLaunchTests.swift */,
-			);
-			path = SpaceYUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +120,7 @@
 			);
 			name = SpaceY;
 			productName = SpaceY;
-			productReference = 522E4E6027CC3AF80000B6B6 /* SpaceY.app */;
+			productReference = 522E4E6027CC3AF80000B6B6 /* SpaceXY.app */;
 			productType = "com.apple.product-type.application";
 		};
 		522E4E7627CC3AF90000B6B6 /* SpaceYTests */ = {
@@ -168,24 +141,6 @@
 			productReference = 522E4E7727CC3AF90000B6B6 /* SpaceYTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		522E4E8027CC3AF90000B6B6 /* SpaceYUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 522E4E9127CC3AF90000B6B6 /* Build configuration list for PBXNativeTarget "SpaceYUITests" */;
-			buildPhases = (
-				522E4E7D27CC3AF90000B6B6 /* Sources */,
-				522E4E7E27CC3AF90000B6B6 /* Frameworks */,
-				522E4E7F27CC3AF90000B6B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				522E4E8327CC3AF90000B6B6 /* PBXTargetDependency */,
-			);
-			name = SpaceYUITests;
-			productName = SpaceYUITests;
-			productReference = 522E4E8127CC3AF90000B6B6 /* SpaceYUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,13 +158,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 522E4E5F27CC3AF80000B6B6;
 					};
-					522E4E8027CC3AF90000B6B6 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 522E4E5F27CC3AF80000B6B6;
-					};
 				};
 			};
-			buildConfigurationList = 522E4E5B27CC3AF80000B6B6 /* Build configuration list for PBXProject "SpaceY" */;
+			buildConfigurationList = 522E4E5B27CC3AF80000B6B6 /* Build configuration list for PBXProject "SpaceXY" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,7 +175,6 @@
 			targets = (
 				522E4E5F27CC3AF80000B6B6 /* SpaceY */,
 				522E4E7627CC3AF90000B6B6 /* SpaceYTests */,
-				522E4E8027CC3AF90000B6B6 /* SpaceYUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,19 +186,13 @@
 			files = (
 				522E4E6627CC3AF80000B6B6 /* GameScene.sks in Resources */,
 				522E4E6E27CC3AF90000B6B6 /* Assets.xcassets in Resources */,
+				52DB0FA127CC3D9A00AB19FF /* Starfield.sks in Resources */,
 				522E4E6827CC3AF80000B6B6 /* Actions.sks in Resources */,
 				522E4E7127CC3AF90000B6B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		522E4E7527CC3AF90000B6B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		522E4E7F27CC3AF90000B6B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,15 +220,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		522E4E7D27CC3AF90000B6B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				522E4E8627CC3AF90000B6B6 /* SpaceYUITests.swift in Sources */,
-				522E4E8827CC3AF90000B6B6 /* SpaceYUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,11 +227,6 @@
 			isa = PBXTargetDependency;
 			target = 522E4E5F27CC3AF80000B6B6 /* SpaceY */;
 			targetProxy = 522E4E7827CC3AF90000B6B6 /* PBXContainerItemProxy */;
-		};
-		522E4E8327CC3AF90000B6B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 522E4E5F27CC3AF80000B6B6 /* SpaceY */;
-			targetProxy = 522E4E8227CC3AF90000B6B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,7 +362,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SpaceY/SpaceY.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpaceXY/SpaceXY.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -447,8 +378,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceY;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceXY;
+				PRODUCT_NAME = SpaceXY;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -459,7 +390,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SpaceY/SpaceY.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SpaceXY/SpaceXY.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -474,8 +406,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceY;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceXY;
+				PRODUCT_NAME = SpaceXY;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -486,14 +418,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UVXX33WP85;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceYTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceY.app/Contents/MacOS/SpaceY";
@@ -505,58 +438,25 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UVXX33WP85;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceYTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceY.app/Contents/MacOS/SpaceY";
 			};
 			name = Release;
 		};
-		522E4E9227CC3AF90000B6B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UVXX33WP85;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceYUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SpaceY;
-			};
-			name = Debug;
-		};
-		522E4E9327CC3AF90000B6B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UVXX33WP85;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bruce32.SpaceYUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SpaceY;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		522E4E5B27CC3AF80000B6B6 /* Build configuration list for PBXProject "SpaceY" */ = {
+		522E4E5B27CC3AF80000B6B6 /* Build configuration list for PBXProject "SpaceXY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				522E4E8927CC3AF90000B6B6 /* Debug */,
@@ -579,15 +479,6 @@
 			buildConfigurations = (
 				522E4E8F27CC3AF90000B6B6 /* Debug */,
 				522E4E9027CC3AF90000B6B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		522E4E9127CC3AF90000B6B6 /* Build configuration list for PBXNativeTarget "SpaceYUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				522E4E9227CC3AF90000B6B6 /* Debug */,
-				522E4E9327CC3AF90000B6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
